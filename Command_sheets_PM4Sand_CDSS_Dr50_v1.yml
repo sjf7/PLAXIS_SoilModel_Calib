@@ -1,0 +1,90 @@
+#----------------------------------------------------------
+#       [0] - Experimental data info
+#----------------------------------------------------------
+
+filename_lab: "benchmark - CDSS Lab results.csv"
+
+filelocation_lab_data: "C:\\Users URL\\"
+
+
+#----------------------------------------------------------
+#       [1] - Output info
+#----------------------------------------------------------
+
+output_location: "C:\\Users\\PM4Sand_results\\"
+
+#----------------------------------------------------------
+#       [2] - DSS params
+#----------------------------------------------------------
+
+Steps_per_Quarter_Cycle: 50
+
+eff_sigma_v: 200.0     # kN/m3 or kPa
+phi_cv: 30        # degree
+
+CSR:  0.1
+num_cycles: 14
+
+h_consolidation: 20.3242   
+D_R0: 0.51      # Relative density - Dr
+weight_specimen: 84.30     # [gr]
+
+
+
+
+
+gamma_sat: 18.2          # kN/m3 or kPa
+Gs: 2.77                 # specific gravity
+water_density: 1      # [gr/cm3]
+min_dry_density:  1.16   # Max dry density - [gr/cm3]
+max_dry_density:  1.52   # Min dry density - [gr/cm3]
+p_A:  101.325            #  101.325 - atmospheric pressure [kPa]   pref
+
+#----------------------------------------------------------
+#       [3] - input params ranges
+#----------------------------------------------------------
+
+
+    
+h_p0s: [ 0.03  , 0.51  , 0.02 ]     # Contraction rate parameter 
+
+n_bs: [0.3 , 0.51  , 0.15  ]      # Bounding surface parameter 
+n_ds: [0.05 , 0.15, 0.02]    # Dilatancy surface parameter 
+Qs: [8 , 13 , 1]       # Critical state line 
+R: 1.5        #  Critical state line 
+PostShake: 0   # activate the reduction of elastic stiffness to simulate the post-shaking reconsolidation 
+ 
+G_0s: [ 80000 , 161001 , 1000 ] #  Shear modulus coefficient at the smal strain   
+
+poisson_ratio: 0.3                  #   Default: 0.3 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
